@@ -1,0 +1,30 @@
+.banner {
+  background-image: url(https://images.unsplash.com/photo-1486911278844-a81c5267e227?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1350&q=80);
+  height: 700px;
+  background-size: cover;
+  display: flex;
+  align-items: top;
+
+}
+
+.banner-container {
+padding: 50px;
+width: 700px;
+}
+
+.banner-container h1, p {
+  color: #913535;
+  font-weight: bold;
+}
+
+.banner-container h1 {
+  font-size: 36px;
+}
+.banner-container p {
+  font-size: 24px;
+  display: block;
+  margin-block-start: 1em;
+  margin-block-end: 2em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+}
